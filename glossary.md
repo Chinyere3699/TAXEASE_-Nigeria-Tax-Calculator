@@ -8,7 +8,7 @@
 
 **4. Pension:** Retirement savings deducted before tax payment (lowers your tax bill).
 
-**5. NHF** (National Housing Fund): Housing fund contribution (also lowers your tax). 
+**5. NHF (National Housing Fund):** Housing fund contribution (also lowers your tax). 
 
 **6. Gross Income:** Total earnings before deductions.
 
