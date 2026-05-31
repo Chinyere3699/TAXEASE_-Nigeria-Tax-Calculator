@@ -10,7 +10,7 @@ Complete Profile Setup
 
       ↓
       
-Enter Salary 
+Enter Earnings 
 
       ↓
       
@@ -19,6 +19,7 @@ Add Deductions
       ↓
       
 Calculate PAYE Tax
+
       ↓
       
 View Tax Breakdown
