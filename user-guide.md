@@ -1,31 +1,31 @@
-# TaxEase User Guide
+# Taxease User Guide
 
 ## Version Information
 
-Product Name: TaxEase
+Product Name: Taxease
 
 Version: 1.00
 
 # 1. Introduction
 
-## About TaxEase
+## About Taxease
 
-TaxEase is a mobile-first tax management platform designed to help Nigerian employees, freelancers, SMEs, payroll officers, HR teams, accountants, and tax consultants calculate, understand, and manage tax obligations with ease.
+Taxease is a mobile-first tax management platform designed to help Nigerian employees, freelancers, SMEs, payroll officers, HR teams, accountants, and tax consultants calculate, understand, and manage tax obligations with ease.
 
 The platform simplifies tax calculations by providing transparent PAYE computations, tax breakdowns, payroll processing tools, educational resources, and downloadable reports.
 
 ## Purpose of This Guide
 
-This guide explains how to use TaxEase and its key features.
+This guide explains how to use Taxease and its key features.
 
 
 # 2. Getting Started
 
 ## Create an Account
 
-To create a TaxEase account:
+To create a Taxease account:
 
-1. Open the TaxEase application
+1. Open the Taxease application
 2. Select **Register**
 3. Enter the required information
 4. Verify your account if prompted
@@ -33,7 +33,7 @@ To create a TaxEase account:
 
 ## Log In
 
-1. Open the TaxEase application
+1. Open the Taxease application
 2. Enter your registered credentials
 3. Click **Login**
 
@@ -46,7 +46,7 @@ To create a TaxEase account:
 
 # 3. Completing Your Profile
 
-Before using TaxEase, users should complete their profile.
+Before using Taxease, users should complete their profile.
 
 ## Personal Information
 
@@ -317,7 +317,7 @@ Recommended action:
 
 # 16. Disclaimer
 
-TaxEase provides tax estimates based on information supplied by users and applicable tax rules configured within the platform.
+Taxease provides tax estimates based on information supplied by users and applicable tax rules configured within the platform.
 
 The results generated are intended for informational purposes only and should not be considered legal, accounting, financial, or professional tax advice.
 
@@ -330,7 +330,7 @@ For support and inquiries:
 
 * In-App Support
 * WhatsApp Support
-* Official TaxEase Support Channels
+* Official Taxease Support Channels
 
 
 # 18. Revision History
