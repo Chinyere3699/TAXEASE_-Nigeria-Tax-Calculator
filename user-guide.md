@@ -60,18 +60,25 @@ Provide:
 
 Employees may provide:
 
-* Employment Type
+* Employment information
 * Salary Information
 * Pension Contributions
 * NHF Contributions
+* Any other required information
 
 ## Business Information
 
-Freelancers and SMEs may provide:
+Freelancers may provide:
 
-* Business Name
-* Business Category
+* Profession Name
 * Income Information
+* Tax information
+
+SMEs may provide:
+* Business information
+* Financial Information
+* Tax information
+
 
 # 4. Dashboard Overview
 
@@ -82,7 +89,7 @@ Users can access:
 * Tax Calculator
 * Payroll Calculator
 * Reports
-* Learning Hub
+* Educational resources
 * Notifications
 * Support Services
 
@@ -95,18 +102,18 @@ The Individual Tax Calculator helps users estimate PAYE tax obligations.
 
 Input:
 
-* Gross Salary
+* Basic (Gross) Salary
 * Pension Contribution
 * NHF Contribution
 * Other Eligible Deductions
 
 ## Step 2: Calculate Tax
 
-Click **Calculate Tax**.
+Click **Continue**.
 
 TaxEase automatically:
 
-* Calculates applicable relief allowances
+* Calculates applicable rent relief
 * Determines taxable income
 * Applies tax band rates
 * Computes estimated PAYE tax
@@ -117,7 +124,7 @@ Users can review:
 
 * Gross Income
 * Total Deductions
-* Consolidated Relief Allowance (CRA)
+* Rent relief
 * Taxable Income
 * PAYE Tax
 * Net Salary
@@ -136,9 +143,9 @@ Employee pension deductions entered during the calculation process.
 
 National Housing Fund contribution used during tax computation.
 
-## Consolidated Relief Allowance (CRA)
+## Rent relief
 
-A tax relief allowance that reduces taxable income according to applicable tax rules.
+An eligible relief applied during tax computations were applicable. It reduces taxable income according to applicable tax rules.
 
 ## Taxable Income
 
@@ -168,9 +175,9 @@ This feature is designed for Payroll Officers and HR Teams.
 
 ## Upload Payroll Data
 
-1. Navigate to the Batch Payroll section.
-2. Upload a supported payroll file.
-3. Verify employee records.
+1. Navigate to the Batch Payroll section
+2. Upload a supported payroll file
+3. Verify employee records
 
 ## Run Payroll Calculations
 
@@ -190,7 +197,7 @@ Users can review:
 
 # 9. Exporting Reports
 
-TaxEase allows users to export calculation results.
+Taxease allows users to export calculation results.
 
 ## Download Tax Summary
 
@@ -270,13 +277,10 @@ Users can access support directly within the application.
 
 Users may contact support through the official WhatsApp support channel.
 
-## AI Tax Assistant
-
-The AI Tax Assistant provides quick responses to common tax-related questions and platform guidance.
 
 ## Language Support
 
-Where available, users may access support in supported local languages.
+Where available, users may access support in supported local languages
 
 
 # 15. Troubleshooting
