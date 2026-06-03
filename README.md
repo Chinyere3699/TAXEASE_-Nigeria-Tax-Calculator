@@ -92,7 +92,7 @@ Secondary Users
 3. Monitor platform activities
 
 ## Documentation Structure
-The project documentationi ncludes:
+The project documentation includes:
 1. README
 2. User Guide
 3. Glossary
