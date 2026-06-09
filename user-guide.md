@@ -169,6 +169,19 @@ TaxEase allows users to compare:
 
 This feature helps users understand long-term tax implications and plan accordingly.
 
+### 7.b Using the Freelancer Tax Engine
+
+Independent contractors and freelancers can utilize the calculation interface to self-assess annual liabilities and track income deductions.
+
+#### Step 1: Input Freelance Revenue Parameters
+* Enter total gross earnings across all service contracts.
+* Input self-funded pension savings, documented business expenses, or active life insurance premiums.
+* Enter annual rent paid to claim the 2026 Rent Relief allowance.
+
+#### Step 2: Validate Identity Tracking
+* Input your 11-digit **National Identification Number (NIN)**, which serves as your official Tax Identification Number (TIN). 
+* *Note: Providing an invalid or empty identity field causes the system to flag your transactions for the doubled WHT rate penalty (up to 2x standard deductions).*
+
 
 # 8. Batch Payroll Processing
 
