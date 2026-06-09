@@ -98,14 +98,15 @@ Users can access:
 
 The Individual Tax Calculator helps users estimate PAYE tax obligations.
 
-## Step 1: Enter Salary Details
+### Step 1: Enter Salary Details
 
 Input:
-
-* Basic (Gross) Salary
-* Pension Contribution
-* NHF Contribution
-* Other Eligible Deductions
+* Gross Income (Total annual earnings package)
+* Basic Salary Component
+* Housing Allowance Component
+* Transport Allowance Component
+* Annual Rent Paid (If claiming Rent Relief)
+* Other Eligible Deductions (NHIS, NHF, Life Insurance if applicable)
 
 ## Step 2: Calculate Tax
 
