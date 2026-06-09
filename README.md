@@ -51,9 +51,9 @@ Secondary Users
 6. Export payroll calculations to Excel or CSV
 
 ### Tax Explanation
-1. Consolidated Relief Allowance (CRA) calculation
-2. Taxable income computation
-3. Tax band breakdown and applied rates
+1. Rent Relief system application and validation rules
+2. Taxable income computation engine
+3. Tax band breakdown and applied rates (6 progressive bands)
 4. Step-by-step explanation of how tax is calculated in plain language
 
 ### Tax  Learning
