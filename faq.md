@@ -61,11 +61,11 @@ Yes. TaxEase allows users to generate and download tax summaries in PDF format.
 
 Where supported, users can save calculation records and access them later from their account.
 
-## Payments & Filing
+### Payments & Filing
 
-### Can I pay my tax through Taxease?
+**Q: Can I pay my tax directly through TaxEase?** A: No. In this MVP version, TaxEase is a calculation, reporting, and educational engine. Payment gateways and direct electronic filing systems are currently outside our product roadmap scope.
 
-Yes. Taxease is designed to help users calculate, pay, and manage their tax obligations within a single workflow.
+**Q: Will I receive an official tax payment receipt?** A: TaxEase generates downloadable PDF Tax Summaries and CSV/Excel Payroll Reports detailing your calculated obligations. You can use these generated sheets to complete your manual filings directly on official state internal revenue portals.
 
 ### Will I receive a payment confirmation?
 
