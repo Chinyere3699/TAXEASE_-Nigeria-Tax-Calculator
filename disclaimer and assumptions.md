@@ -24,8 +24,8 @@ The tax calculations provided by TaxEase are based on the following assumptions:
 
 ### Tax Rules
 
-* Calculations are based on the Nigerian Personal Income Tax framework and applicable PAYE rules configured within the platform.
-* Tax rates, reliefs and deductions are applied according to the rules available at the time of calculation.
+* Calculations are strictly based on the Nigerian Personal Income Tax framework as amended by the Nigeria Tax Act (NTA) 2025 and the Nigeria Tax Administration Act (NTAA) 2025 for the 2026 Fiscal Year.
+* Tax rates, reliefs, and deductions are applied according to the updated rules enforced by the Nigeria Revenue Service (NRS) active at the time of calculation.
 
 ### Deductions
 
