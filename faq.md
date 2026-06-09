@@ -28,9 +28,10 @@ Your net salary is the amount you receive after deductions such as PAYE tax, pen
 
 Depending on your situation, you may include pension contributions, NHF contributions, and other allowable deductions supported by the platform.
 
-### What is a Consolidated Relief Allowance (CRA)?
+**Q: What happened to the Consolidated Relief Allowance (CRA)?** A: Effective January 1, 2026, the CRA has been abolished by law. It has been replaced by the **Rent Relief system**, which allows you to deduct a portion of your actual rent paid from your taxable income base.
 
-CRA is a tax relief provided under Nigerian tax regulations that helps reduce the amount of income subject to tax.
+**Q: What is the Rent Relief system?** A: It is a tax relief mechanism for individuals who pay rent. The system automatically applies a deduction equal to the lower of 20% of your documented annual rent or ₦500,000 before your income tax is computed.
+
 
 ### What is taxable income?
 
