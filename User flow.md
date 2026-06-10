@@ -4,7 +4,7 @@
 
 Login/Register
 
-      ↓
+      ↓login.png
       
 Complete Profile Setup
 
