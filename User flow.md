@@ -17,7 +17,7 @@ Enter Earnings
       
 Add Deductions
 
-      ↓
+      ↓Individual deductions.png
       
 Calculate PAYE Tax
 
