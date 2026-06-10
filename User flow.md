@@ -12,8 +12,7 @@ Complete Profile Setup
       
 Enter Earnings 
 
-      ↓SMEs Income details.png 
-      Individual income details.png
+      ↓Individual income details.png
       
       
 Add Deductions
