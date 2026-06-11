@@ -37,7 +37,7 @@ To create a Taxease account:
 2. Enter your registered credentials
 3. Click **Login**
 
-   [login](images/login.png)(images/login.png)
+[![image](../images/login.png)](../images/login.png)
 
 ## Forgot Password
 
