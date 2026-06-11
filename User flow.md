@@ -4,7 +4,7 @@
 
 Login/Register
 
-      ↓![Login](images/login.png)
+      ↓[![Login](images/login.png)](images/login.png)
       
 Complete Profile Setup
 
