@@ -41,7 +41,7 @@ Login/Register
       
 Upload Employee Payroll Data
 
-      ↓![SMEs Income details](main/SMEs Income details.png)
+[![SMEs Income details](main/SMEs%20Income%20details.png)](main/SMEs%20Income%20details.png)
       
 Review Uploaded Records
 
@@ -70,7 +70,7 @@ Save Calculation
 
 Login/Register
 
-      ↓![login](images/login.png)
+[![login](images/login.png)](images/login.png)
       
 Update Platform Settings
 
