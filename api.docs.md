@@ -1,207 +1,329 @@
 # TaxEase API Documentation
 
-## Overview
+## Version Information
 
-This document describes the API endpoints available in the TaxEase platform.
+**Product:** TaxEase  
+**Version:** 1.0  
+**Prepared By:** Technical Writing Team, Group 18  
+**Last Updated:** June 2026  
 
-# Authentication APIs
+# 1. Overview
 
-## Sign Up
+The TaxEase API provides backend services that support user authentication, tax calculations, payroll processing, and report generation for the TaxEase platform.
 
-**Method:** POST
+The APIs enable frontend and mobile applications to securely interact with the TaxEase system.
 
-**Endpoint:** `/sign_up`
+# 2. Authentication
 
-**Description:** Creates a new user account.
+TaxEase uses **JSON Web Token (JWT)** authentication to secure protected endpoints.
 
-### Authentication Required
-No
+## Public Endpoints
 
-### Request Body
-To be updated by Backend Team.
+These endpoints do not require authentication:
 
-### Response
-To be updated by Backend Team.
+- User Registration
+- User Login
+- Refresh Token
+- Forgot Password
+- Reset Password
 
-## Login
+## Protected Endpoints
 
-**Method:** POST
+These endpoints require authentication:
 
-**Endpoint:** `/login`
+- Save Tax Calculation
+- Retrieve Calculation History
+- Delete Calculation History
+- Payroll Processing
+- Report Generation
+- Administrative Functions
 
-**Description:** Authenticates a user and grants access.
+# 3. API Endpoints
 
-### Authentication Required
-No
+## Authentication APIs
 
-### Request Body
-To be updated by Backend Team.
+### Register User
 
-### Response
-To be updated by Backend Team.
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/auth/sign_up` |
+| Description | Creates a new user account. |
+| Authentication Required | No |
 
-## Refresh Token
 
-**Method:** GET
+### Login User
 
-**Endpoint:** `/refresh_token`
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/auth/login` |
+| Description | Authenticates users and grants access tokens. |
+| Authentication Required | No |
 
-**Description:** Generates a new access token.
 
+### Refresh Token
 
-# Tax APIs
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/auth/refresh_token` |
+| Description | Generates a new authentication token. |
+| Authentication Required | No |
 
-## Calculate Tax
+### Forgot Password
 
-**Method:** POST
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/auth/forgot_password` |
+| Description | Initiates password recovery. |
+| Authentication Required | No |
 
-**Endpoint:** `/calculate`
+### Reset Password
 
-**Description:** Calculates PAYE tax based on user inputs.
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/auth/reset_password` |
+| Description | Resets a user's password. |
+| Authentication Required | No |
 
-### Authentication Required
-No
 
-### Request Body
-To be updated by Backend Team.
+### Logout User
 
-### Response
-To be updated by Backend Team.
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/auth/log_out` |
+| Description | Logs the user out of the system. |
+| Authentication Required | Yes |
 
-## Get Tax Rules
+# 4. Tax APIs
 
-**Method:** GET
+### Calculate Tax
 
-**Endpoint:** `/rules`
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/tax/calculate` |
+| Description | Calculates PAYE tax obligations using user-provided income information. |
+| Authentication Required | No |
 
-**Description:** Retrieves applicable tax rules and tax bands.
+### Get Tax Rules
 
-## Save Calculation
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/tax/rules` |
+| Description | Retrieves tax rules and calculation parameters used within the system. |
+| Authentication Required | No |
 
-**Method:** POST
+### Save Calculation
 
-**Endpoint:** `/save`
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/tax/save` |
+| Description | Saves completed tax calculations for future reference. |
+| Authentication Required | Yes |
 
-**Description:** Saves a tax calculation for future reference.
+### Retrieve Calculation History
 
-### Authentication Required
-Yes
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/tax/history` |
+| Description | Retrieves previously saved tax calculations. |
+| Authentication Required | Yes |
 
-## Get Calculation History
+### Delete Calculation History
 
-**Method:** GET
+| Item | Details |
+|--------|----------|
+| Method | DELETE |
+| Endpoint | `/api/tax/history/:id` |
+| Description | Deletes a saved tax calculation record. |
+| Authentication Required | Yes |
 
-**Endpoint:** `/history`
+# 5. Payroll APIs
 
-**Description:** Retrieves saved tax calculations.
+### Upload Payroll Data
+
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/payroll/upload` |
+| Description | Uploads payroll information for batch tax processing. |
+| Authentication Required | Yes |
 
-### Authentication Required
-Yes
+**Notes:**
+
+- CSV file uploads supported
+- Maximum upload size determined by backend configuration
+
+### Retrieve Payroll Uploads
+
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/payroll/uploads` |
+| Description | Retrieves payroll upload records. |
+| Authentication Required | Yes |
+
+
+### Retrieve Payroll Results
+
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/payroll/uploads/:id/results` |
+| Description | Retrieves processed payroll tax results for a selected upload. |
+| Authentication Required | Yes |
 
-## Delete Calculation History
 
-**Method:** DELETE
+# 6. Reports APIs
 
-**Endpoint:** `/history/:id`
+### Generate Individual Tax Report
 
-**Description:** Deletes a saved calculation.
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/reports/individual/pdf` |
+| Description | Generates a downloadable PDF tax summary for individual users. |
+| Authentication Required | Yes |
 
-### Authentication Required
-Yes
+### Export Payroll Report (CSV)
 
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/reports/payroll/csv` |
+| Description | Exports payroll tax information in CSV format. |
+| Authentication Required | Yes |
 
-# Payroll APIs
+### Export Payroll Report (Excel)
 
-## Upload Payroll CSV
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/reports/payroll/excel` |
+| Description | Exports payroll tax information in Excel format. |
+| Authentication Required | Yes |
 
-**Method:** POST
+### Download Generated Report
 
-**Endpoint:** `/upload`
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/reports/:id/download` |
+| Description | Downloads previously generated reports. |
+| Authentication Required | Yes |
 
-**Description:** Uploads and processes payroll data from a CSV file.
+# 7. Administrative APIs
 
-### Authentication Required
-Yes
+### Retrieve Users
 
-### Constraints
-- CSV files only
-- Maximum file size: 10 MB
+| Item | Details |
+|--------|----------|
+| Method | GET |
+| Endpoint | `/api/admin/users` |
+| Description | Retrieves registered users within the system. |
+| Authentication Required | Yes |
+| Access Level | Administrator |
 
-## Get Payroll Uploads
+### Update User Role
 
-**Method:** GET
+| Item | Details |
+|--------|----------|
+| Method | PATCH |
+| Endpoint | `/api/admin/users/:id/role` |
+| Description | Updates user access roles. |
+| Authentication Required | Yes |
+| Access Level | Administrator |
 
-**Endpoint:** `/uploads`
+### Create Tax Rules
 
-**Description:** Retrieves all payroll upload records.
+| Item | Details |
+|--------|----------|
+| Method | POST |
+| Endpoint | `/api/admin/tax-rules` |
+| Description | Creates new tax rules within the platform. |
+| Authentication Required | Yes |
+| Access Level | Administrator |
 
-### Authentication Required
-Yes
+### Update Tax Rules
 
-## Get Payroll Results
+| Item | Details |
+|--------|----------|
+| Method | PATCH |
+| Endpoint | `/api/admin/tax-rules/:id` |
+| Description | Updates existing tax rules. |
+| Authentication Required | Yes |
+| Access Level | Administrator |
 
-**Method:** GET
+# 8. Security Features
 
-**Endpoint:** `/uploads/:id/results`
+TaxEase implements several security mechanisms, including:
 
-**Description:** Retrieves payroll calculation results for a specific upload.
+- JSON Web Token (JWT) Authentication
+- Password Hashing using bcrypt
+- Protected Route Middleware
+- Input Validation
+- Role-Based Access Control (RBAC)
+- Secure File Upload Handling
 
-### Authentication Required
-Yes
+# 9. Technologies Used
 
+## Backend Framework
 
-# Reports APIs
+- Node.js
+- Express.js
 
-## Generate Individual PDF Report
+## Database
 
-**Method:** GET
+- MongoDB
+- Mongoose
 
-**Endpoint:** `/individual/pdf`
+## Authentication
 
-**Description:** Generates a PDF tax report.
+- JSON Web Token (JWT)
+- bcrypt
 
-### Authentication Required
-Yes
+## File Handling
 
-## Export Payroll CSV
+- Multer
+- Cloudinary
 
-**Method:** POST
+## Data Processing
 
-**Endpoint:** `/payroll/csv`
+- csv-parser
+- xlsx
 
-**Description:** Exports payroll records in CSV format.
+## Report Generation
 
-### Authentication Required
-Yes
+- PDFKit
 
-## Export Payroll Excel
+## Notifications
 
-**Method:** POST
+- Resend
 
-**Endpoint:** `/payroll/excel`
+## Utilities
 
-**Description:** Exports payroll records in Excel format.
+- dotenv
+- cors
+- Morgan
 
-### Authentication Required
-Yes
+# 10. Notes
 
-## Download Report
+- Authentication middleware is applied only to protected routes.
+- Login and registration endpoints remain publicly accessible.
+- Reports are generated and stored according to backend configuration.
+- Detailed request payloads and response schemas will be updated as backend validation progresses.
 
-**Method:** GET
 
-**Endpoint:** `/:id/download`
+# 11. Revision History
 
-**Description:** Downloads a generated report.
-
-### Authentication Required
-Yes
-
-
-# Error Responses
-
-This section will be updated when backend response formats are finalized.
-
-
-# Authentication
-
-This section will be updated when the backend team confirms the authentication mechanism.
+| Version | Date | Description |
+|----------|-------|-------------|
+| 1.0 | June 2026 | Initial API documentation |
