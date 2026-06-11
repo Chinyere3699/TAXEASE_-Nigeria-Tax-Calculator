@@ -25,11 +25,11 @@ Calculate PAYE Tax
 
 View Tax Breakdown
 
-      ↓![Tax calculation breakdown](images/Tax calculation breakdown.png)
+[![Tax calculation breakdown](images/Tax%20calculation%20breakdown.png)](images/Tax%20calculation%20breakdown.png)
       
 Download Report
 
-      ↓![Calculation result](Calculation result.png)
+[![Calculation result](Calculation%20result.png)](Calculation%20result.png)
       
 Save Calculation
 
@@ -37,7 +37,7 @@ Save Calculation
 
 Login/Register
 
-      ↓![login](images/login.png)
+[![Login](images/login.png)](images/login.png)
       
 Upload Employee Payroll Data
 
@@ -49,11 +49,11 @@ Review Uploaded Records
       
 Calculate PAYE for Employees
 
-      ↓![Tax calculation breakdown](images/Tax calculation breakdown.png)
+[![Tax calculation breakdown](images/Tax%20calculation%20breakdown.png)](images/Tax%20calculation%20breakdown.png)
       
  Review Results
  
-      ↓![Calculation result](images/Calculation result.png)
+[![Calculation result](Calculation%20result.png)](Calculation%20result.png)
       
 Export Payroll Report (Excel/CSV)
 
