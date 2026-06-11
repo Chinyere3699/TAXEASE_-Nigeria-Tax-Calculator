@@ -8,7 +8,7 @@ Login/Register
       
 Complete Profile Setup
 
-      ↓![Profile Setup](images/3 dashboard.png)
+      ↓![Profile Setup](images/Complete profile setup.png)
       
 Enter Earnings 
 
