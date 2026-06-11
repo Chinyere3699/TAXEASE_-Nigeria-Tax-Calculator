@@ -20,8 +20,7 @@ This guide explains how to use Taxease and its key features.
 
 
 # 2. Getting Started
-
-[![image](../images/dashboard.png)](../images/dashboard.png)
+![Login Screen](../Images/login-screen.png)
 
 ## Create an Account
 
