@@ -4,11 +4,11 @@
 
 Login/Register
 
-[Login](images/login.png)(images/login.png)
+[![Login](images/login.png)](images/login.png)
       
 Complete Profile Setup
 
-[Profile Setup](images/Complete%20profile%20setup.png)(images/Complete%20profile%20setup.png)
+[![Profile Setup](images/Complete%20profile%20setup.png)](images/Complete%20profile%20setup.png)
       
 Enter Earnings 
 
