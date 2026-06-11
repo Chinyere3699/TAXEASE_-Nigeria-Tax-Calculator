@@ -12,12 +12,12 @@ Complete Profile Setup
       
 Enter Earnings 
 
-      ↓![Individual earnings](main/individual earnings.png)
+[![Individual earnings](main/individual%20earnings.png)](main/individual%20earnings.png)
       
       
 Add Deductions
 
-      ↓![Individual deductions](main/individual deductions.png)
+[![Individual deductions](main/individual%20deductions.png)](main/individual%20deductions.png)
       
 Calculate PAYE Tax
 
