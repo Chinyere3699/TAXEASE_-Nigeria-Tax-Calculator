@@ -9,9 +9,9 @@
 
 # 1. Overview
 
-The Taxease API provides backend services that support user authentication, tax calculations, payroll processing, and report generation for the TaxEase platform.
+The Taxease API provides backend services that support user authentication, tax calculations, payroll processing, and report generation for the Taxease platform.
 
-The APIs enable frontend and mobile applications to securely interact with the TaxEase system.
+The APIs enable frontend and mobile applications to securely interact with the Taxease system.
 
 # 2. Authentication
 
