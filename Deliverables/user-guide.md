@@ -82,6 +82,7 @@ SMEs may provide:
 * Business information
 * Financial Information
 * Tax information
+
 [![image](../images/3%20dashboard.png)](../images/3%20dashboard.png)
 
 # 4. Dashboard Overview
