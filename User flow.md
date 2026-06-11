@@ -22,14 +22,14 @@ Add Deductions
 Calculate PAYE Tax
 
       ↓
-      
+
 View Tax Breakdown
 
-      ↓
+      ↓Tax calculation breakdown.png
       
 Download Report
 
-      ↓
+      ↓Calculation result.png
       
 Save Calculation
 
@@ -37,11 +37,11 @@ Save Calculation
 
 Login/Register
 
-      ↓
+      ↓login.png
       
 Upload Employee Payroll Data
 
-      ↓
+      ↓SMEs income details 
       
 Review Uploaded Records
 
@@ -49,11 +49,11 @@ Review Uploaded Records
       
 Calculate PAYE for Employees
 
-      ↓
+      ↓Tax calculation breakdown.png
       
  Review Results
  
-      ↓
+      ↓Calculation result.png
       
 Export Payroll Report (Excel/CSV)
 
@@ -70,7 +70,7 @@ Save Calculation
 
 Login/Register
 
-      ↓
+      ↓login.png
       
 Update Platform Settings
 
