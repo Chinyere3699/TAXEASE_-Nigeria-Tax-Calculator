@@ -21,6 +21,8 @@ This guide explains how to use Taxease and its key features.
 
 # 2. Getting Started
 
+[![image](../images/dashboard.png)](../images/dashboard.png)
+
 ## Create an Account
 
 To create a Taxease account:
@@ -37,7 +39,7 @@ To create a Taxease account:
 2. Enter your registered credentials
 3. Click **Login**
 
-[![image](../images/login.png)](../images/login.png)
+[![image](../images/2%20dashboard.png)](../images/2%20dashboard.png)
 
 ## Forgot Password
 
@@ -80,7 +82,7 @@ SMEs may provide:
 * Business information
 * Financial Information
 * Tax information
-
+[![image](../images/3%20dashboard.png)](../images/3%20dashboard.png)
 
 # 4. Dashboard Overview
 
