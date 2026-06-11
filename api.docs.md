@@ -1,15 +1,15 @@
-# TaxEase API Documentation
+# Taxease API Documentation
 
 ## Version Information
 
-**Product:** TaxEase  
+**Product:** Taxease  
 **Version:** 1.0  
 **Prepared By:** Technical Writing Team, Group 18  
 **Last Updated:** June 2026  
 
 # 1. Overview
 
-The TaxEase API provides backend services that support user authentication, tax calculations, payroll processing, and report generation for the TaxEase platform.
+The Taxease API provides backend services that support user authentication, tax calculations, payroll processing, and report generation for the TaxEase platform.
 
 The APIs enable frontend and mobile applications to securely interact with the TaxEase system.
 
