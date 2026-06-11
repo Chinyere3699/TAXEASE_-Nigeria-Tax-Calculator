@@ -171,7 +171,7 @@ TaxEase allows users to compare:
 
 This feature helps users understand long-term tax implications and plan accordingly.
 
-### 7.b Using the Freelancer Tax Engine
+### 7. Using the Freelancer Tax Engine
 
 Independent contractors and freelancers can utilize the calculation interface to self-assess annual liabilities and track income deductions.
 
@@ -230,7 +230,6 @@ Payroll officers can export payroll tax reports for record-keeping and reporting
 
 Supported formats may include:
 
-* PDF
 * CSV
 * Excel
 
@@ -253,7 +252,7 @@ The Glossary provides explanations for common tax terms used throughout the plat
 Examples include:
 
 * PAYE
-* CRA
+* Rent relief
 * NHF
 * Taxable Income
 * Gross Income
@@ -291,12 +290,7 @@ Users can access support directly within the application.
 
 ## WhatsApp Support
 
-Users may contact support through the official WhatsApp support channel.
-
-
-## Language Support
-
-Where available, users may access support in supported local languages
+Users may contact support through the official WhatsApp support channel
 
 
 # 15. Troubleshooting
