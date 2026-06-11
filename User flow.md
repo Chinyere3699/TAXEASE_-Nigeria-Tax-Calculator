@@ -12,12 +12,12 @@ Complete Profile Setup
       
 Enter Earnings 
 
-      ↓Individual income details.png
+      ↓![Individual earnings](main/individual earnings.png)
       
       
 Add Deductions
 
-      ↓Individual deductions.png
+      ↓![Individual deductions](main/individual deductions.png)
       
 Calculate PAYE Tax
 
@@ -25,11 +25,11 @@ Calculate PAYE Tax
 
 View Tax Breakdown
 
-      ↓Tax calculation breakdown.png
+      ↓![Tax calculation breakdown](Tax breakdown.png)
       
 Download Report
 
-      ↓Calculation result.png
+      ↓![Calculation result](Calculation result.png)
       
 Save Calculation
 
@@ -37,11 +37,11 @@ Save Calculation
 
 Login/Register
 
-      ↓login.png
+      ↓![login](login.png)
       
 Upload Employee Payroll Data
 
-      ↓SMEs income details 
+      ↓![SMEs income details](SMEs income details.png)
       
 Review Uploaded Records
 
@@ -49,11 +49,11 @@ Review Uploaded Records
       
 Calculate PAYE for Employees
 
-      ↓Tax calculation breakdown.png
+      ↓![Tax calculation breakdown](Tax calculation breakdown.png)
       
  Review Results
  
-      ↓Calculation result.png
+      ↓![Calculation result](Calculation result.png)
       
 Export Payroll Report (Excel/CSV)
 
@@ -70,7 +70,7 @@ Save Calculation
 
 Login/Register
 
-      ↓login.png
+      ↓![login](login.png)
       
 Update Platform Settings
 
