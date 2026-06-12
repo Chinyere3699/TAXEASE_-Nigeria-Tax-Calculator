@@ -38,8 +38,6 @@ To create a Taxease account:
 2. Enter your registered credentials
 3. Click **Login**
 
-[![image](../images/2%20dashboard.png)](../images/2%20dashboard.png)
-
 ## Forgot Password
 
 1. Select **Forgot Password**
@@ -82,11 +80,10 @@ SMEs may provide:
 * Financial Information
 * Tax information
 
-[![image](../images/3%20dashboard.png)](../images/3%20dashboard.png)
-
 # 4. Dashboard Overview
 
 The Dashboard serves as the central navigation point for all platform activities.
+![SME Dashboard](../Images/smes-dashboard.png)
 
 Users can access:
 
@@ -111,6 +108,7 @@ Input:
 * Transport Allowance Component
 * Annual Rent Paid (If claiming Rent Relief)
 * Other Eligible Deductions (NHIS, NHF, Life Insurance if applicable)
+![Individual Deduction Screen](../Images/individual-deduction-screen.png)
 
 ## Step 2: Calculate Tax
 
@@ -122,6 +120,7 @@ TaxEase automatically:
 * Determines taxable income
 * Applies tax band rates
 * Computes estimated PAYE tax
+![Calculation Breakdown](../Images/calculation-breakdown.png)
 
 ## Step 3: View Results
 
@@ -133,6 +132,7 @@ Users can review:
 * Taxable Income
 * PAYE Tax
 * Net Salary
+![Tax Result](../Images/tax-result.png)
 
 # 6. Understanding Tax Results
 
@@ -200,7 +200,7 @@ This feature is designed for Payroll Officers and HR Teams.
 ## Run Payroll Calculations
 
 1. Review uploaded information.
-2. Select **Calculate Payroll Tax**.
+2. Select **Calculate Tax**.
 3. Wait for processing to complete.
 
 ## Review Results
@@ -237,6 +237,7 @@ Supported formats may include:
 
 
 # 10. Tax Learning Hub
+![Learning Hub](../Images/learning-hub.png)
 
 The Tax Learning Hub provides educational resources designed to improve tax awareness and understanding.
 
@@ -262,7 +263,7 @@ Examples include:
 
 
 # 12. Frequently Asked Questions (FAQ)
-
+![SME Faq Screen](../Images/faq-screen.png)
 The FAQ section provides answers to common questions about:
 
 * Tax Calculations
