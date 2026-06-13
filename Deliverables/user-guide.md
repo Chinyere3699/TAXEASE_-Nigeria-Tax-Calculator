@@ -88,13 +88,9 @@ The Dashboard serves as the central navigation point for all platform activities
 Users can access:
 
 * Tax Calculator
-* Payroll Calculator
-* Reports
 * Educational resources
 * Notifications
-* Support Services
-
-
+  
 # 5. Using the Individual Tax Calculator
 
 The Individual Tax Calculator helps users estimate PAYE tax obligations.
