@@ -108,8 +108,7 @@ Current Phase: Development and Documentation
 
 * Product Discovery and Research
 * Product Requirements Document (PRD)
-* UI/UX Designs and Prototypes
-* Documentation Structure Setup
+* UI/UX Designs
 * README
 * Glossary
 * FAQ
