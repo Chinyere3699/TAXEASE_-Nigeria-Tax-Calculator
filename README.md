@@ -1,7 +1,7 @@
 # Taxease
 
 ## Overview
-TaxEase is a mobile-first tax management platform designed to help Nigerian employees, freelancers, SMEs, payroll officers, HR teams, accountants, and tax consultants calculate, understand, and manage their tax obligations using Nigerian Personal Income Tax rules.
+Taxease is a mobile-first tax management platform designed to help Nigerian employees, freelancers, SMEs, payroll officers, HR teams, accountants, and tax consultants calculate, understand, and manage their tax obligations using Nigerian Personal Income Tax rules.
 
 The platform simplifies tax computation through transparent calculations, payroll support, tax education resources, and beginner-friendly explanations designed for both experienced and first-time taxpayers.
 
