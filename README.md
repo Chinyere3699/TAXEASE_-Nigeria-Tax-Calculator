@@ -129,6 +129,7 @@ Current Phase: Development and Documentation
 
 ### Upcoming
 * Payment integration
+* Language support
    
 ## Team Collaboration
 This project is being developed collaboratively across:
