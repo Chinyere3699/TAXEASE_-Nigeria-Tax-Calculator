@@ -83,7 +83,7 @@ SMEs may provide:
 # 4. Dashboard Overview
 
 The Dashboard serves as the central navigation point for all platform activities.
-![SME Dashboard](../Images/smes-dashboard.png)
+![IndividualD ashboard](../Images/individual-dashboard.png)
 
 Users can access:
 
