@@ -70,8 +70,6 @@ Secondary Users
 ### Support 
 1. In-app customer support
 2. WhatsApp support channel
-3. Local language support
-4. AI-powered Tax Assistant for quick tax-related guidance
 
 ## User Roles
 ### Individual User
@@ -116,22 +114,22 @@ Current Phase: Development and Documentation
 * Glossary
 * FAQ
 * User Flows
+* User Guide
+* Tax Methodology Document
 * Disclaimer and Assumptions
 * Frontend Development
 * Backend Development
+* API Documentation
+* Release Notes
 
 ### In Progress
 
-* User Guide
-* Tax Methodology Document
-
-### Upcoming
-
-* API Documentation
-* Release Notes
 * User Testing
 * Final Documentation Review
 
+
+### Upcoming
+* Payment integration
    
 ## Team Collaboration
 This project is being developed collaboratively across:
